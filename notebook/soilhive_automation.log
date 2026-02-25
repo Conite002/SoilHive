@@ -1,0 +1,3287 @@
+2026-02-19 15:33:38,469 - INFO - Setting up Chrome driver...
+2026-02-19 15:33:38,470 - INFO - ====== WebDriver manager ======
+2026-02-19 15:33:39,702 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-19 15:33:40,718 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-19 15:33:40,905 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-19 15:33:41,377 - INFO - WebDriver version 143.0.7499.192 selected
+2026-02-19 15:33:41,383 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/143.0.7499.192/linux64/chromedriver-linux64.zip
+2026-02-19 15:33:41,384 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/143.0.7499.192/linux64/chromedriver-linux64.zip
+2026-02-19 15:33:41,727 - INFO - Driver downloading response is 200
+2026-02-19 15:33:42,196 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-19 15:33:42,675 - INFO - Driver has been saved in cache [/home/agbelgaid/.wdm/drivers/chromedriver/linux64/143.0.7499.192]
+2026-02-19 15:33:57,624 - INFO - Navigating to https://soilhive.ag/app/availability
+2026-02-19 15:34:01,444 - INFO - Cookies accepted.
+2026-02-19 15:34:03,578 - INFO - Clicked 'Start' button.
+2026-02-19 15:34:03,579 - INFO - Searching for country: Brazil
+2026-02-19 15:34:05,479 - INFO - Selected country: Brazil
+2026-02-19 15:34:07,480 - INFO - Selecting all datasets...
+2026-02-19 15:34:08,111 - INFO - Clicked 'Select all'.
+2026-02-19 15:34:08,111 - INFO - Clicking Download button...
+2026-02-19 15:34:09,212 - INFO - Download button clicked.
+2026-02-19 15:34:09,212 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 15:34:10,017 - INFO - Terms of Use accepted.
+2026-02-19 15:34:10,117 - INFO - Submit button clicked.
+2026-02-19 15:34:13,118 - INFO - Request submitted successfully.
+2026-02-19 15:34:14,803 - INFO - Searching for country: Argentina
+2026-02-19 15:34:16,126 - INFO - Selected country: Argentina
+2026-02-19 15:34:18,127 - INFO - Selecting all datasets...
+2026-02-19 15:34:18,200 - INFO - Clicked 'Select all'.
+2026-02-19 15:34:18,203 - INFO - Clicking Download button...
+2026-02-19 15:34:19,274 - INFO - Download button clicked.
+2026-02-19 15:34:19,275 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 15:34:19,440 - INFO - Terms of Use accepted.
+2026-02-19 15:34:19,500 - INFO - Submit button clicked.
+2026-02-19 15:34:22,502 - INFO - Request submitted successfully.
+2026-02-19 15:34:24,176 - INFO - Searching for country: Chile
+2026-02-19 15:34:25,028 - INFO - Selected country: Chile
+2026-02-19 15:34:27,029 - INFO - Selecting all datasets...
+2026-02-19 15:34:27,684 - INFO - Clicked 'Select all'.
+2026-02-19 15:34:27,684 - INFO - Clicking Download button...
+2026-02-19 15:34:27,845 - INFO - Closing driver...
+2026-02-19 15:34:27,847 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(104, 'Connection reset by peer')': /session/d7449d96d5e17d683e533369ae3eecf9
+2026-02-19 15:34:27,848 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=59847): Failed to establish a new connection: [Errno 111] Connection refused")': /session/d7449d96d5e17d683e533369ae3eecf9
+2026-02-19 15:34:27,849 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=59847): Failed to establish a new connection: [Errno 111] Connection refused")': /session/d7449d96d5e17d683e533369ae3eecf9
+2026-02-19 15:34:29,768 - INFO - Setting up Chrome driver...
+2026-02-19 15:34:29,769 - INFO - ====== WebDriver manager ======
+2026-02-19 15:34:29,932 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-19 15:34:30,153 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-19 15:34:30,323 - INFO - Driver [/home/agbelgaid/.wdm/drivers/chromedriver/linux64/143.0.7499.192/chromedriver-linux64/chromedriver] found in cache
+2026-02-19 15:34:30,616 - INFO - Navigating to https://soilhive.ag/app/availability
+2026-02-19 15:34:43,737 - INFO - Cookies accepted.
+2026-02-19 15:34:43,807 - INFO - Clicked 'Start' button.
+2026-02-19 15:34:43,808 - INFO - Searching for country: Brazil
+2026-02-19 15:35:02,330 - INFO - Selected country: Brazil
+2026-02-19 15:35:04,331 - INFO - Selecting all datasets...
+2026-02-19 15:35:04,962 - INFO - Clicked 'Select all'.
+2026-02-19 15:35:04,962 - INFO - Clicking Download button...
+2026-02-19 15:35:06,045 - INFO - Download button clicked.
+2026-02-19 15:35:06,046 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 15:35:06,267 - INFO - Terms of Use accepted.
+2026-02-19 15:35:06,338 - INFO - Submit button clicked.
+2026-02-19 15:35:09,339 - INFO - Request submitted successfully.
+2026-02-19 15:35:12,894 - INFO - Searching for country: Argentina
+2026-02-19 15:35:15,985 - INFO - Selected country: Argentina
+2026-02-19 15:35:17,986 - INFO - Selecting all datasets...
+2026-02-19 15:35:19,531 - INFO - Clicked 'Select all'.
+2026-02-19 15:35:19,531 - INFO - Clicking Download button...
+2026-02-19 15:35:20,651 - INFO - Download button clicked.
+2026-02-19 15:35:20,652 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 15:35:20,809 - INFO - Terms of Use accepted.
+2026-02-19 15:35:20,871 - INFO - Submit button clicked.
+2026-02-19 15:35:23,872 - INFO - Request submitted successfully.
+2026-02-19 15:35:26,771 - INFO - Searching for country: Chile
+2026-02-19 15:35:29,953 - INFO - Selected country: Chile
+2026-02-19 15:35:31,956 - INFO - Selecting all datasets...
+2026-02-19 15:35:33,547 - INFO - Clicked 'Select all'.
+2026-02-19 15:35:33,548 - INFO - Clicking Download button...
+2026-02-19 15:35:34,668 - INFO - Download button clicked.
+2026-02-19 15:35:34,669 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 15:35:34,830 - INFO - Terms of Use accepted.
+2026-02-19 15:35:34,901 - INFO - Submit button clicked.
+2026-02-19 15:35:37,902 - INFO - Request submitted successfully.
+2026-02-19 15:35:41,090 - INFO - Searching for country: Colombia
+2026-02-19 15:35:57,641 - INFO - Selected country: Colombia
+2026-02-19 15:35:59,642 - INFO - Selecting all datasets...
+2026-02-19 15:36:01,743 - INFO - Clicked 'Select all'.
+2026-02-19 15:36:01,743 - INFO - Clicking Download button...
+2026-02-19 15:36:02,826 - INFO - Download button clicked.
+2026-02-19 15:36:02,827 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 15:36:02,986 - INFO - Terms of Use accepted.
+2026-02-19 15:36:03,053 - INFO - Submit button clicked.
+2026-02-19 15:36:06,053 - INFO - Request submitted successfully.
+2026-02-19 15:36:09,137 - INFO - Searching for country: Peru
+2026-02-19 15:36:26,867 - INFO - Selected country: Peru
+2026-02-19 15:36:28,871 - INFO - Selecting all datasets...
+2026-02-19 15:36:30,876 - INFO - Clicked 'Select all'.
+2026-02-19 15:36:30,877 - INFO - Clicking Download button...
+2026-02-19 15:36:31,938 - INFO - Download button clicked.
+2026-02-19 15:36:31,938 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 15:36:32,090 - INFO - Terms of Use accepted.
+2026-02-19 15:36:32,153 - INFO - Submit button clicked.
+2026-02-19 15:36:35,154 - INFO - Request submitted successfully.
+2026-02-19 15:36:38,288 - INFO - Searching for country: Venezuela
+2026-02-19 15:36:40,707 - INFO - Selected country: Venezuela
+2026-02-19 15:36:42,708 - INFO - Selecting all datasets...
+2026-02-19 15:36:44,476 - INFO - Clicked 'Select all'.
+2026-02-19 15:36:44,476 - INFO - Clicking Download button...
+2026-02-19 15:36:45,592 - INFO - Download button clicked.
+2026-02-19 15:36:45,593 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 15:36:45,739 - INFO - Terms of Use accepted.
+2026-02-19 15:36:45,801 - INFO - Submit button clicked.
+2026-02-19 15:36:48,801 - INFO - Request submitted successfully.
+2026-02-19 15:36:51,547 - INFO - Searching for country: Ecuador
+2026-02-19 15:36:54,086 - INFO - Selected country: Ecuador
+2026-02-19 15:36:56,087 - INFO - Selecting all datasets...
+2026-02-19 15:36:58,292 - INFO - Clicked 'Select all'.
+2026-02-19 15:36:58,293 - INFO - Clicking Download button...
+2026-02-19 15:36:59,407 - INFO - Download button clicked.
+2026-02-19 15:36:59,407 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 15:36:59,568 - INFO - Terms of Use accepted.
+2026-02-19 15:36:59,637 - INFO - Submit button clicked.
+2026-02-19 15:37:02,638 - INFO - Request submitted successfully.
+2026-02-19 15:37:06,136 - INFO - Searching for country: Bolivia
+2026-02-19 15:37:07,875 - INFO - Selected country: Bolivia
+2026-02-19 15:37:09,875 - INFO - Selecting all datasets...
+2026-02-19 15:37:12,099 - INFO - Clicked 'Select all'.
+2026-02-19 15:37:12,100 - INFO - Clicking Download button...
+2026-02-19 15:37:13,164 - INFO - Download button clicked.
+2026-02-19 15:37:13,165 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 15:37:13,306 - INFO - Terms of Use accepted.
+2026-02-19 15:37:13,367 - INFO - Submit button clicked.
+2026-02-19 15:37:16,368 - INFO - Request submitted successfully.
+2026-02-19 15:37:19,701 - INFO - Searching for country: Paraguay
+2026-02-19 15:37:22,244 - INFO - Selected country: Paraguay
+2026-02-19 15:37:24,247 - INFO - Selecting all datasets...
+2026-02-19 15:37:26,713 - INFO - Clicked 'Select all'.
+2026-02-19 15:37:26,713 - INFO - Clicking Download button...
+2026-02-19 15:37:27,899 - INFO - Download button clicked.
+2026-02-19 15:37:27,899 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 15:37:28,058 - INFO - Terms of Use accepted.
+2026-02-19 15:37:28,129 - INFO - Submit button clicked.
+2026-02-19 15:37:31,130 - INFO - Request submitted successfully.
+2026-02-19 15:37:33,952 - INFO - Searching for country: Uruguay
+2026-02-19 15:37:50,161 - INFO - Selected country: Uruguay
+2026-02-19 15:37:52,162 - INFO - Selecting all datasets...
+2026-02-19 15:37:53,108 - INFO - Clicked 'Select all'.
+2026-02-19 15:37:53,109 - INFO - Clicking Download button...
+2026-02-19 15:37:54,236 - INFO - Download button clicked.
+2026-02-19 15:37:54,237 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 15:37:54,449 - INFO - Terms of Use accepted.
+2026-02-19 15:37:54,519 - INFO - Submit button clicked.
+2026-02-19 15:37:57,519 - INFO - Request submitted successfully.
+2026-02-19 15:38:00,172 - INFO - Searching for country: Mexico
+2026-02-19 15:38:03,736 - INFO - Selected country: Mexico
+2026-02-19 15:38:05,738 - INFO - Selecting all datasets...
+2026-02-19 15:38:08,001 - INFO - Clicked 'Select all'.
+2026-02-19 15:38:08,001 - INFO - Clicking Download button...
+2026-02-19 15:38:09,072 - INFO - Download button clicked.
+2026-02-19 15:38:09,073 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 15:38:09,222 - INFO - Terms of Use accepted.
+2026-02-19 15:38:09,302 - INFO - Submit button clicked.
+2026-02-19 15:38:12,303 - INFO - Request submitted successfully.
+2026-02-19 15:38:14,985 - INFO - Searching for country: Guatemala
+2026-02-19 15:38:31,085 - INFO - Selected country: Guatemala
+2026-02-19 15:38:33,086 - INFO - Selecting all datasets...
+2026-02-19 15:38:34,996 - INFO - Clicked 'Select all'.
+2026-02-19 15:38:34,997 - INFO - Clicking Download button...
+2026-02-19 15:38:36,067 - INFO - Download button clicked.
+2026-02-19 15:38:36,068 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 15:38:36,227 - INFO - Terms of Use accepted.
+2026-02-19 15:38:36,298 - INFO - Submit button clicked.
+2026-02-19 15:38:39,299 - INFO - Request submitted successfully.
+2026-02-19 15:38:41,919 - INFO - Searching for country: Honduras
+2026-02-19 15:38:58,406 - INFO - Selected country: Honduras
+2026-02-19 15:39:00,408 - INFO - Selecting all datasets...
+2026-02-19 15:39:02,276 - INFO - Clicked 'Select all'.
+2026-02-19 15:39:02,277 - INFO - Clicking Download button...
+2026-02-19 15:39:03,398 - INFO - Download button clicked.
+2026-02-19 15:39:03,399 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 15:39:03,556 - INFO - Terms of Use accepted.
+2026-02-19 15:39:03,627 - INFO - Submit button clicked.
+2026-02-19 15:39:06,627 - INFO - Request submitted successfully.
+2026-02-19 15:39:09,529 - INFO - Searching for country: Costa Rica
+2026-02-19 15:39:13,200 - INFO - Selected country: Costa Rica
+2026-02-19 15:39:15,203 - INFO - Selecting all datasets...
+2026-02-19 15:39:17,493 - INFO - Clicked 'Select all'.
+2026-02-19 15:39:17,493 - INFO - Clicking Download button...
+2026-02-19 15:39:18,555 - INFO - Download button clicked.
+2026-02-19 15:39:18,556 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 15:39:18,700 - INFO - Terms of Use accepted.
+2026-02-19 15:39:18,761 - INFO - Submit button clicked.
+2026-02-19 15:39:21,762 - INFO - Request submitted successfully.
+2026-02-19 15:39:24,338 - INFO - Closing driver...
+2026-02-19 20:22:49,652 - INFO - Setting up Chrome driver...
+2026-02-19 20:22:49,664 - INFO - ====== WebDriver manager ======
+2026-02-19 20:22:49,828 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-19 20:22:50,157 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-19 20:22:50,329 - INFO - Driver [/home/agbelgaid/.wdm/drivers/chromedriver/linux64/143.0.7499.192/chromedriver-linux64/chromedriver] found in cache
+2026-02-19 20:22:51,119 - INFO - Navigating to https://soilhive.ag/app/availability
+2026-02-19 20:22:55,238 - INFO - Cookies accepted.
+2026-02-19 20:23:00,467 - INFO - Clicked 'Start' button.
+2026-02-19 20:23:00,467 - INFO - Searching for country: China
+2026-02-19 20:23:20,126 - INFO - Selected country: China
+2026-02-19 20:23:22,127 - INFO - Selecting all datasets...
+2026-02-19 20:23:23,406 - INFO - Clicked 'Select all'.
+2026-02-19 20:23:23,406 - INFO - Clicking Download button...
+2026-02-19 20:23:24,523 - INFO - Download button clicked.
+2026-02-19 20:23:24,523 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 20:23:24,730 - INFO - Terms of Use accepted.
+2026-02-19 20:23:24,801 - INFO - Submit button clicked.
+2026-02-19 20:23:27,802 - INFO - Request submitted successfully.
+2026-02-19 20:23:30,663 - INFO - Searching for country: India
+2026-02-19 20:23:34,575 - INFO - Selected country: India
+2026-02-19 20:23:36,576 - INFO - Selecting all datasets...
+2026-02-19 20:23:39,110 - INFO - Clicked 'Select all'.
+2026-02-19 20:23:39,110 - INFO - Clicking Download button...
+2026-02-19 20:23:40,182 - INFO - Download button clicked.
+2026-02-19 20:23:40,182 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 20:23:40,387 - INFO - Terms of Use accepted.
+2026-02-19 20:23:40,460 - INFO - Submit button clicked.
+2026-02-19 20:23:43,461 - INFO - Request submitted successfully.
+2026-02-19 20:23:47,163 - INFO - Searching for country: Indonesia
+2026-02-19 20:23:49,395 - INFO - Selected country: Indonesia
+2026-02-19 20:23:51,398 - INFO - Selecting all datasets...
+2026-02-19 20:23:53,727 - INFO - Clicked 'Select all'.
+2026-02-19 20:23:53,728 - INFO - Clicking Download button...
+2026-02-19 20:23:54,803 - INFO - Download button clicked.
+2026-02-19 20:23:54,803 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 20:23:54,953 - INFO - Terms of Use accepted.
+2026-02-19 20:23:55,015 - INFO - Submit button clicked.
+2026-02-19 20:23:58,016 - INFO - Request submitted successfully.
+2026-02-19 20:24:00,776 - INFO - Searching for country: Pakistan
+2026-02-19 20:24:12,813 - INFO - Selected country: Pakistan
+2026-02-19 20:24:14,818 - INFO - Selecting all datasets...
+2026-02-19 20:24:16,789 - INFO - Clicked 'Select all'.
+2026-02-19 20:24:16,790 - INFO - Clicking Download button...
+2026-02-19 20:24:17,865 - INFO - Download button clicked.
+2026-02-19 20:24:17,865 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 20:24:18,141 - INFO - Terms of Use accepted.
+2026-02-19 20:24:18,213 - INFO - Submit button clicked.
+2026-02-19 20:24:21,213 - INFO - Request submitted successfully.
+2026-02-19 20:24:23,893 - INFO - Searching for country: Bangladesh
+2026-02-19 20:24:26,338 - INFO - Selected country: Bangladesh
+2026-02-19 20:24:28,339 - INFO - Selecting all datasets...
+2026-02-19 20:24:30,963 - INFO - Clicked 'Select all'.
+2026-02-19 20:24:30,964 - INFO - Clicking Download button...
+2026-02-19 20:24:32,034 - INFO - Download button clicked.
+2026-02-19 20:24:32,035 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 20:24:32,181 - INFO - Terms of Use accepted.
+2026-02-19 20:24:32,244 - INFO - Submit button clicked.
+2026-02-19 20:24:35,244 - INFO - Request submitted successfully.
+2026-02-19 20:24:37,947 - INFO - Searching for country: Vietnam
+2026-02-19 20:24:53,882 - INFO - Selected country: Vietnam
+2026-02-19 20:24:55,882 - INFO - Selecting all datasets...
+2026-02-19 20:24:58,820 - INFO - Clicked 'Select all'.
+2026-02-19 20:24:58,821 - INFO - Clicking Download button...
+2026-02-19 20:24:59,894 - INFO - Download button clicked.
+2026-02-19 20:24:59,894 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 20:25:00,386 - INFO - Terms of Use accepted.
+2026-02-19 20:25:00,451 - INFO - Submit button clicked.
+2026-02-19 20:25:03,451 - INFO - Request submitted successfully.
+2026-02-19 20:25:06,614 - INFO - Searching for country: Thailand
+2026-02-19 20:25:09,033 - INFO - Selected country: Thailand
+2026-02-19 20:25:11,036 - INFO - Selecting all datasets...
+2026-02-19 20:25:13,288 - INFO - Clicked 'Select all'.
+2026-02-19 20:25:13,288 - INFO - Clicking Download button...
+2026-02-19 20:25:14,350 - INFO - Download button clicked.
+2026-02-19 20:25:14,351 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 20:25:14,497 - INFO - Terms of Use accepted.
+2026-02-19 20:25:14,562 - INFO - Submit button clicked.
+2026-02-19 20:25:17,562 - INFO - Request submitted successfully.
+2026-02-19 20:25:20,580 - INFO - Searching for country: Philippines
+2026-02-19 20:25:23,386 - INFO - Selected country: Philippines
+2026-02-19 20:25:25,387 - INFO - Selecting all datasets...
+2026-02-19 20:25:27,803 - INFO - Clicked 'Select all'.
+2026-02-19 20:25:27,803 - INFO - Clicking Download button...
+2026-02-19 20:25:28,878 - INFO - Download button clicked.
+2026-02-19 20:25:28,924 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 20:25:29,083 - INFO - Terms of Use accepted.
+2026-02-19 20:25:29,150 - INFO - Submit button clicked.
+2026-02-19 20:25:32,150 - INFO - Request submitted successfully.
+2026-02-19 20:25:34,976 - INFO - Searching for country: Japan
+2026-02-19 20:25:37,439 - INFO - Selected country: Japan
+2026-02-19 20:25:39,440 - INFO - Selecting all datasets...
+2026-02-19 20:25:41,565 - INFO - Clicked 'Select all'.
+2026-02-19 20:25:41,565 - INFO - Clicking Download button...
+2026-02-19 20:25:42,628 - INFO - Download button clicked.
+2026-02-19 20:25:42,628 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 20:25:42,778 - INFO - Terms of Use accepted.
+2026-02-19 20:25:42,841 - INFO - Submit button clicked.
+2026-02-19 20:25:45,842 - INFO - Request submitted successfully.
+2026-02-19 20:25:48,600 - INFO - Searching for country: South Korea
+2026-02-19 20:26:01,795 - INFO - Selected country: South Korea
+2026-02-19 20:26:03,797 - INFO - Selecting all datasets...
+2026-02-19 20:26:06,212 - INFO - Clicked 'Select all'.
+2026-02-19 20:26:06,213 - INFO - Clicking Download button...
+2026-02-19 20:26:07,287 - INFO - Download button clicked.
+2026-02-19 20:26:07,287 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 20:26:07,485 - INFO - Terms of Use accepted.
+2026-02-19 20:26:07,592 - INFO - Submit button clicked.
+2026-02-19 20:26:10,593 - INFO - Request submitted successfully.
+2026-02-19 20:26:13,418 - INFO - Searching for country: Myanmar
+2026-02-19 20:26:16,343 - INFO - Selected country: Myanmar
+2026-02-19 20:26:18,344 - INFO - Selecting all datasets...
+2026-02-19 20:26:20,811 - INFO - Clicked 'Select all'.
+2026-02-19 20:26:20,812 - INFO - Clicking Download button...
+2026-02-19 20:26:21,882 - INFO - Download button clicked.
+2026-02-19 20:26:21,883 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 20:26:22,102 - INFO - Terms of Use accepted.
+2026-02-19 20:26:22,165 - INFO - Submit button clicked.
+2026-02-19 20:26:25,165 - INFO - Request submitted successfully.
+2026-02-19 20:26:27,944 - INFO - Searching for country: Malaysia
+2026-02-19 20:26:30,356 - INFO - Selected country: Malaysia
+2026-02-19 20:26:32,357 - INFO - Selecting all datasets...
+2026-02-19 20:26:34,885 - INFO - Clicked 'Select all'.
+2026-02-19 20:26:34,886 - INFO - Clicking Download button...
+2026-02-19 20:26:35,958 - INFO - Download button clicked.
+2026-02-19 20:26:35,959 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 20:26:36,103 - INFO - Terms of Use accepted.
+2026-02-19 20:26:36,163 - INFO - Submit button clicked.
+2026-02-19 20:26:39,164 - INFO - Request submitted successfully.
+2026-02-19 20:26:41,909 - INFO - Searching for country: Nepal
+2026-02-19 20:26:44,580 - INFO - Selected country: Nepal
+2026-02-19 20:26:46,581 - INFO - Selecting all datasets...
+2026-02-19 20:26:49,211 - INFO - Clicked 'Select all'.
+2026-02-19 20:26:49,212 - INFO - Clicking Download button...
+2026-02-19 20:26:50,327 - INFO - Download button clicked.
+2026-02-19 20:26:50,328 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 20:26:50,548 - INFO - Terms of Use accepted.
+2026-02-19 20:26:51,209 - INFO - Submit button clicked.
+2026-02-19 20:26:54,209 - INFO - Request submitted successfully.
+2026-02-19 20:26:57,034 - INFO - Searching for country: Sri Lanka
+2026-02-19 20:26:59,564 - INFO - Selected country: Sri Lanka
+2026-02-19 20:27:01,565 - INFO - Selecting all datasets...
+2026-02-19 20:27:03,614 - INFO - Clicked 'Select all'.
+2026-02-19 20:27:03,615 - INFO - Clicking Download button...
+2026-02-19 20:27:04,734 - INFO - Download button clicked.
+2026-02-19 20:27:04,734 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 20:27:04,889 - INFO - Terms of Use accepted.
+2026-02-19 20:27:04,953 - INFO - Submit button clicked.
+2026-02-19 20:27:07,954 - INFO - Request submitted successfully.
+2026-02-19 20:27:10,523 - INFO - Searching for country: Saudi Arabia
+2026-02-19 20:27:14,176 - INFO - Selected country: Saudi Arabia
+2026-02-19 20:27:16,177 - INFO - Selecting all datasets...
+2026-02-19 20:27:18,490 - INFO - Clicked 'Select all'.
+2026-02-19 20:27:18,491 - INFO - Clicking Download button...
+2026-02-19 20:27:19,618 - INFO - Download button clicked.
+2026-02-19 20:27:19,619 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 20:27:19,780 - INFO - Terms of Use accepted.
+2026-02-19 20:27:19,852 - INFO - Submit button clicked.
+2026-02-19 20:27:22,852 - INFO - Request submitted successfully.
+2026-02-19 20:27:25,644 - INFO - Searching for country: Iran
+2026-02-19 20:27:41,642 - INFO - Selected country: Iran
+2026-02-19 20:27:43,643 - INFO - Selecting all datasets...
+2026-02-19 20:27:45,660 - INFO - Clicked 'Select all'.
+2026-02-19 20:27:45,660 - INFO - Clicking Download button...
+2026-02-19 20:27:46,845 - INFO - Download button clicked.
+2026-02-19 20:27:46,846 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 20:27:47,002 - INFO - Terms of Use accepted.
+2026-02-19 20:27:47,070 - INFO - Submit button clicked.
+2026-02-19 20:27:50,071 - INFO - Request submitted successfully.
+2026-02-19 20:27:52,801 - INFO - Searching for country: Iraq
+2026-02-19 20:28:08,887 - INFO - Selected country: Iraq
+2026-02-19 20:28:10,888 - INFO - Selecting all datasets...
+2026-02-19 20:28:12,180 - INFO - Clicked 'Select all'.
+2026-02-19 20:28:12,181 - INFO - Clicking Download button...
+2026-02-19 20:28:13,253 - INFO - Download button clicked.
+2026-02-19 20:28:13,254 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 20:28:13,411 - INFO - Terms of Use accepted.
+2026-02-19 20:28:13,482 - INFO - Submit button clicked.
+2026-02-19 20:28:16,483 - INFO - Request submitted successfully.
+2026-02-19 20:28:20,085 - INFO - Searching for country: Turkey
+2026-02-19 20:28:40,488 - ERROR - Error searching country Turkey: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:28:40,723 - INFO - Screenshot saved: screenshot_search_error_Turkey_1771532920.png
+2026-02-19 20:28:40,723 - ERROR - Failed to process Turkey: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:28:41,933 - INFO - Searching for country: Kazakhstan
+2026-02-19 20:29:00,114 - INFO - Selected country: Kazakhstan
+2026-02-19 20:29:02,114 - INFO - Selecting all datasets...
+2026-02-19 20:29:04,408 - INFO - Clicked 'Select all'.
+2026-02-19 20:29:04,409 - INFO - Clicking Download button...
+2026-02-19 20:29:05,524 - INFO - Download button clicked.
+2026-02-19 20:29:05,525 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 20:29:05,689 - INFO - Terms of Use accepted.
+2026-02-19 20:29:05,757 - INFO - Submit button clicked.
+2026-02-19 20:29:08,758 - INFO - Request submitted successfully.
+2026-02-19 20:29:11,356 - INFO - Searching for country: Uzbekistan
+2026-02-19 20:29:27,964 - INFO - Selected country: Uzbekistan
+2026-02-19 20:29:29,966 - INFO - Selecting all datasets...
+2026-02-19 20:29:31,221 - INFO - Clicked 'Select all'.
+2026-02-19 20:29:31,222 - INFO - Clicking Download button...
+2026-02-19 20:29:32,407 - INFO - Download button clicked.
+2026-02-19 20:29:32,407 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 20:29:32,552 - INFO - Terms of Use accepted.
+2026-02-19 20:29:32,612 - INFO - Submit button clicked.
+2026-02-19 20:29:35,613 - INFO - Request submitted successfully.
+2026-02-19 20:29:38,461 - INFO - Searching for country: Alabama
+2026-02-19 20:29:59,921 - ERROR - Error searching country Alabama: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:30:00,150 - INFO - Screenshot saved: screenshot_search_error_Alabama_1771532999.png
+2026-02-19 20:30:00,151 - ERROR - Failed to process Alabama: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:30:01,386 - INFO - Searching for country: Alaska
+2026-02-19 20:30:33,535 - ERROR - Error searching country Alaska: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:30:33,767 - INFO - Screenshot saved: screenshot_search_error_Alaska_1771533033.png
+2026-02-19 20:30:33,768 - ERROR - Failed to process Alaska: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:30:35,117 - INFO - Searching for country: Arizona
+2026-02-19 20:30:58,100 - ERROR - Error searching country Arizona: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:30:58,333 - INFO - Screenshot saved: screenshot_search_error_Arizona_1771533058.png
+2026-02-19 20:30:58,334 - ERROR - Failed to process Arizona: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:31:00,187 - INFO - Searching for country: Arkansas
+2026-02-19 20:31:22,157 - ERROR - Error searching country Arkansas: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:31:22,399 - INFO - Screenshot saved: screenshot_search_error_Arkansas_1771533082.png
+2026-02-19 20:31:22,400 - ERROR - Failed to process Arkansas: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:31:23,717 - INFO - Searching for country: California
+2026-02-19 20:31:56,388 - ERROR - Error searching country California: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:31:56,628 - INFO - Screenshot saved: screenshot_search_error_California_1771533116.png
+2026-02-19 20:31:56,629 - ERROR - Failed to process California: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:31:58,009 - INFO - Searching for country: Colorado
+2026-02-19 20:32:20,992 - ERROR - Error searching country Colorado: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:32:21,230 - INFO - Screenshot saved: screenshot_search_error_Colorado_1771533140.png
+2026-02-19 20:32:21,231 - ERROR - Failed to process Colorado: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:32:22,411 - INFO - Searching for country: Connecticut
+2026-02-19 20:32:45,361 - ERROR - Error searching country Connecticut: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:32:45,596 - INFO - Screenshot saved: screenshot_search_error_Connecticut_1771533165.png
+2026-02-19 20:32:45,597 - ERROR - Failed to process Connecticut: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:32:46,824 - INFO - Searching for country: Delaware
+2026-02-19 20:33:10,051 - ERROR - Error searching country Delaware: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:33:10,293 - INFO - Screenshot saved: screenshot_search_error_Delaware_1771533190.png
+2026-02-19 20:33:10,293 - ERROR - Failed to process Delaware: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:33:11,762 - INFO - Searching for country: Florida
+2026-02-19 20:33:34,772 - ERROR - Error searching country Florida: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:33:35,009 - INFO - Screenshot saved: screenshot_search_error_Florida_1771533214.png
+2026-02-19 20:33:35,010 - ERROR - Failed to process Florida: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:33:36,403 - INFO - Searching for country: Georgia
+2026-02-19 20:33:40,539 - INFO - Selected country: Georgia
+2026-02-19 20:33:42,539 - INFO - Selecting all datasets...
+2026-02-19 20:33:45,281 - INFO - Clicked 'Select all'.
+2026-02-19 20:33:45,282 - INFO - Clicking Download button...
+2026-02-19 20:33:46,401 - INFO - Download button clicked.
+2026-02-19 20:33:46,402 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 20:33:46,556 - INFO - Terms of Use accepted.
+2026-02-19 20:33:46,626 - INFO - Submit button clicked.
+2026-02-19 20:33:49,627 - INFO - Request submitted successfully.
+2026-02-19 20:33:52,056 - INFO - Searching for country: Hawaii
+2026-02-19 20:34:13,320 - ERROR - Error searching country Hawaii: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:34:13,559 - INFO - Screenshot saved: screenshot_search_error_Hawaii_1771533253.png
+2026-02-19 20:34:13,559 - ERROR - Failed to process Hawaii: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:34:14,734 - INFO - Searching for country: Idaho
+2026-02-19 20:34:37,640 - ERROR - Error searching country Idaho: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:34:37,874 - INFO - Screenshot saved: screenshot_search_error_Idaho_1771533277.png
+2026-02-19 20:34:37,875 - ERROR - Failed to process Idaho: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:34:39,072 - INFO - Searching for country: Illinois
+2026-02-19 20:35:01,959 - ERROR - Error searching country Illinois: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:35:02,189 - INFO - Screenshot saved: screenshot_search_error_Illinois_1771533301.png
+2026-02-19 20:35:02,190 - ERROR - Failed to process Illinois: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:35:03,394 - INFO - Searching for country: Indiana
+2026-02-19 20:35:26,021 - ERROR - Error searching country Indiana: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:35:26,256 - INFO - Screenshot saved: screenshot_search_error_Indiana_1771533326.png
+2026-02-19 20:35:26,256 - ERROR - Failed to process Indiana: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:35:27,717 - INFO - Searching for country: Iowa
+2026-02-19 20:35:49,851 - ERROR - Error searching country Iowa: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:35:50,115 - INFO - Screenshot saved: screenshot_search_error_Iowa_1771533349.png
+2026-02-19 20:35:50,115 - ERROR - Failed to process Iowa: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:35:51,618 - INFO - Searching for country: Kansas
+2026-02-19 20:36:24,614 - ERROR - Error searching country Kansas: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:36:24,852 - INFO - Screenshot saved: screenshot_search_error_Kansas_1771533384.png
+2026-02-19 20:36:24,853 - ERROR - Failed to process Kansas: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:36:26,169 - INFO - Searching for country: Kentucky
+2026-02-19 20:36:48,883 - ERROR - Error searching country Kentucky: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:36:49,119 - INFO - Screenshot saved: screenshot_search_error_Kentucky_1771533408.png
+2026-02-19 20:36:49,119 - ERROR - Failed to process Kentucky: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:36:50,927 - INFO - Searching for country: Louisiana
+2026-02-19 20:37:22,943 - ERROR - Error searching country Louisiana: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:37:23,183 - INFO - Screenshot saved: screenshot_search_error_Louisiana_1771533442.png
+2026-02-19 20:37:23,184 - ERROR - Failed to process Louisiana: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:37:24,545 - INFO - Searching for country: Maine
+2026-02-19 20:37:47,799 - ERROR - Error searching country Maine: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:37:48,050 - INFO - Screenshot saved: screenshot_search_error_Maine_1771533467.png
+2026-02-19 20:37:48,051 - ERROR - Failed to process Maine: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:37:49,223 - INFO - Searching for country: Maryland
+2026-02-19 20:38:22,026 - ERROR - Error searching country Maryland: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:38:22,267 - INFO - Screenshot saved: screenshot_search_error_Maryland_1771533502.png
+2026-02-19 20:38:22,268 - ERROR - Failed to process Maryland: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:38:23,779 - INFO - Searching for country: Massachusetts
+2026-02-19 20:38:56,271 - ERROR - Error searching country Massachusetts: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:38:56,513 - INFO - Screenshot saved: screenshot_search_error_Massachusetts_1771533536.png
+2026-02-19 20:38:56,513 - ERROR - Failed to process Massachusetts: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:38:57,635 - INFO - Searching for country: Michigan
+2026-02-19 20:39:20,753 - ERROR - Error searching country Michigan: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:39:20,995 - INFO - Screenshot saved: screenshot_search_error_Michigan_1771533560.png
+2026-02-19 20:39:20,996 - ERROR - Failed to process Michigan: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:39:22,210 - INFO - Searching for country: Minnesota
+2026-02-19 20:39:45,254 - ERROR - Error searching country Minnesota: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:39:45,495 - INFO - Screenshot saved: screenshot_search_error_Minnesota_1771533585.png
+2026-02-19 20:39:45,495 - ERROR - Failed to process Minnesota: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:39:46,920 - INFO - Searching for country: Mississippi
+2026-02-19 20:40:09,631 - ERROR - Error searching country Mississippi: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:40:09,876 - INFO - Screenshot saved: screenshot_search_error_Mississippi_1771533609.png
+2026-02-19 20:40:09,877 - ERROR - Failed to process Mississippi: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:40:11,300 - INFO - Searching for country: Missouri
+2026-02-19 20:40:33,758 - ERROR - Error searching country Missouri: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:40:33,992 - INFO - Screenshot saved: screenshot_search_error_Missouri_1771533633.png
+2026-02-19 20:40:33,993 - ERROR - Failed to process Missouri: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:40:35,197 - INFO - Searching for country: Montana
+2026-02-19 20:40:58,026 - ERROR - Error searching country Montana: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:40:58,256 - INFO - Screenshot saved: screenshot_search_error_Montana_1771533658.png
+2026-02-19 20:40:58,257 - ERROR - Failed to process Montana: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:40:59,672 - INFO - Searching for country: Nebraska
+2026-02-19 20:41:32,191 - ERROR - Error searching country Nebraska: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:41:32,423 - INFO - Screenshot saved: screenshot_search_error_Nebraska_1771533692.png
+2026-02-19 20:41:32,424 - ERROR - Failed to process Nebraska: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:41:33,717 - INFO - Searching for country: Nevada
+2026-02-19 20:41:56,874 - ERROR - Error searching country Nevada: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:41:57,116 - INFO - Screenshot saved: screenshot_search_error_Nevada_1771533716.png
+2026-02-19 20:41:57,117 - ERROR - Failed to process Nevada: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:41:58,449 - INFO - Searching for country: New Hampshire
+2026-02-19 20:42:21,019 - ERROR - Error searching country New Hampshire: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:42:21,257 - INFO - Screenshot saved: screenshot_search_error_New Hampshire_1771533741.png
+2026-02-19 20:42:21,258 - ERROR - Failed to process New Hampshire: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:42:22,585 - INFO - Searching for country: New Jersey
+2026-02-19 20:42:45,462 - ERROR - Error searching country New Jersey: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:42:45,705 - INFO - Screenshot saved: screenshot_search_error_New Jersey_1771533765.png
+2026-02-19 20:42:45,705 - ERROR - Failed to process New Jersey: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:42:47,082 - INFO - Searching for country: New Mexico
+2026-02-19 20:43:09,712 - ERROR - Error searching country New Mexico: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:43:09,980 - INFO - Screenshot saved: screenshot_search_error_New Mexico_1771533789.png
+2026-02-19 20:43:09,980 - ERROR - Failed to process New Mexico: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:43:11,223 - INFO - Searching for country: New York
+2026-02-19 20:43:44,119 - ERROR - Error searching country New York: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:43:44,375 - INFO - Screenshot saved: screenshot_search_error_New York_1771533824.png
+2026-02-19 20:43:44,376 - ERROR - Failed to process New York: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:43:45,672 - INFO - Searching for country: North Carolina
+2026-02-19 20:44:08,178 - ERROR - Error searching country North Carolina: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:44:08,417 - INFO - Screenshot saved: screenshot_search_error_North Carolina_1771533848.png
+2026-02-19 20:44:08,417 - ERROR - Failed to process North Carolina: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:44:09,546 - INFO - Searching for country: North Dakota
+2026-02-19 20:44:32,087 - ERROR - Error searching country North Dakota: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:44:32,316 - INFO - Screenshot saved: screenshot_search_error_North Dakota_1771533872.png
+2026-02-19 20:44:32,316 - ERROR - Failed to process North Dakota: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:44:33,660 - INFO - Searching for country: Ohio
+2026-02-19 20:44:56,301 - ERROR - Error searching country Ohio: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:44:56,528 - INFO - Screenshot saved: screenshot_search_error_Ohio_1771533896.png
+2026-02-19 20:44:56,529 - ERROR - Failed to process Ohio: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:44:57,971 - INFO - Searching for country: Oklahoma
+2026-02-19 20:45:30,402 - ERROR - Error searching country Oklahoma: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:45:30,647 - INFO - Screenshot saved: screenshot_search_error_Oklahoma_1771533930.png
+2026-02-19 20:45:30,648 - ERROR - Failed to process Oklahoma: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:45:32,008 - INFO - Searching for country: Oregon
+2026-02-19 20:45:54,992 - ERROR - Error searching country Oregon: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:45:55,232 - INFO - Screenshot saved: screenshot_search_error_Oregon_1771533954.png
+2026-02-19 20:45:55,233 - ERROR - Failed to process Oregon: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:45:56,917 - INFO - Searching for country: Pennsylvania
+2026-02-19 20:46:19,560 - ERROR - Error searching country Pennsylvania: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:46:19,796 - INFO - Screenshot saved: screenshot_search_error_Pennsylvania_1771533979.png
+2026-02-19 20:46:19,797 - ERROR - Failed to process Pennsylvania: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:46:21,220 - INFO - Searching for country: Rhode Island
+2026-02-19 20:46:44,066 - ERROR - Error searching country Rhode Island: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:46:44,324 - INFO - Screenshot saved: screenshot_search_error_Rhode Island_1771534004.png
+2026-02-19 20:46:44,324 - ERROR - Failed to process Rhode Island: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:46:45,410 - INFO - Searching for country: South Carolina
+2026-02-19 20:47:18,348 - ERROR - Error searching country South Carolina: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:47:18,591 - INFO - Screenshot saved: screenshot_search_error_South Carolina_1771534038.png
+2026-02-19 20:47:18,592 - ERROR - Failed to process South Carolina: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:47:19,921 - INFO - Searching for country: South Dakota
+2026-02-19 20:47:42,599 - ERROR - Error searching country South Dakota: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:47:42,850 - INFO - Screenshot saved: screenshot_search_error_South Dakota_1771534062.png
+2026-02-19 20:47:42,851 - ERROR - Failed to process South Dakota: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:47:44,118 - INFO - Searching for country: Tennessee
+2026-02-19 20:48:16,477 - ERROR - Error searching country Tennessee: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:48:16,709 - INFO - Screenshot saved: screenshot_search_error_Tennessee_1771534096.png
+2026-02-19 20:48:16,709 - ERROR - Failed to process Tennessee: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:48:18,222 - INFO - Searching for country: Texas
+2026-02-19 20:48:41,355 - ERROR - Error searching country Texas: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:48:41,590 - INFO - Screenshot saved: screenshot_search_error_Texas_1771534121.png
+2026-02-19 20:48:41,591 - ERROR - Failed to process Texas: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:48:42,800 - INFO - Searching for country: Utah
+2026-02-19 20:49:05,519 - ERROR - Error searching country Utah: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:49:05,756 - INFO - Screenshot saved: screenshot_search_error_Utah_1771534145.png
+2026-02-19 20:49:05,756 - ERROR - Failed to process Utah: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:49:07,066 - INFO - Searching for country: Vermont
+2026-02-19 20:49:29,608 - ERROR - Error searching country Vermont: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:49:29,839 - INFO - Screenshot saved: screenshot_search_error_Vermont_1771534169.png
+2026-02-19 20:49:29,839 - ERROR - Failed to process Vermont: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:49:31,081 - INFO - Searching for country: Virginia
+2026-02-19 20:49:54,112 - ERROR - Error searching country Virginia: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:49:54,355 - INFO - Screenshot saved: screenshot_search_error_Virginia_1771534194.png
+2026-02-19 20:49:54,356 - ERROR - Failed to process Virginia: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:49:55,663 - INFO - Searching for country: Washington
+2026-02-19 20:50:28,230 - ERROR - Error searching country Washington: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:50:28,469 - INFO - Screenshot saved: screenshot_search_error_Washington_1771534228.png
+2026-02-19 20:50:28,470 - ERROR - Failed to process Washington: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:50:29,724 - INFO - Searching for country: West Virginia
+2026-02-19 20:51:02,519 - ERROR - Error searching country West Virginia: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:51:02,752 - INFO - Screenshot saved: screenshot_search_error_West Virginia_1771534262.png
+2026-02-19 20:51:02,753 - ERROR - Failed to process West Virginia: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:51:04,152 - INFO - Searching for country: Wisconsin
+2026-02-19 20:51:27,157 - ERROR - Error searching country Wisconsin: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:51:27,399 - INFO - Screenshot saved: screenshot_search_error_Wisconsin_1771534287.png
+2026-02-19 20:51:27,399 - ERROR - Failed to process Wisconsin: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:51:28,700 - INFO - Searching for country: Wyoming
+2026-02-19 20:51:51,457 - ERROR - Error searching country Wyoming: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:51:51,701 - INFO - Screenshot saved: screenshot_search_error_Wyoming_1771534311.png
+2026-02-19 20:51:51,701 - ERROR - Failed to process Wyoming: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:51:52,966 - INFO - Searching for country: Algeria
+2026-02-19 20:52:10,761 - INFO - Selected country: Algeria
+2026-02-19 20:52:12,762 - INFO - Selecting all datasets...
+2026-02-19 20:52:16,558 - INFO - Clicked 'Select all'.
+2026-02-19 20:52:16,559 - INFO - Clicking Download button...
+2026-02-19 20:52:17,760 - INFO - Download button clicked.
+2026-02-19 20:52:17,761 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 20:52:17,958 - INFO - Terms of Use accepted.
+2026-02-19 20:52:18,029 - INFO - Submit button clicked.
+2026-02-19 20:52:21,030 - INFO - Request submitted successfully.
+2026-02-19 20:52:24,515 - INFO - Searching for country: Angola
+2026-02-19 20:52:35,811 - INFO - Selected country: Angola
+2026-02-19 20:52:37,812 - INFO - Selecting all datasets...
+2026-02-19 20:52:39,268 - INFO - Clicked 'Select all'.
+2026-02-19 20:52:39,268 - INFO - Clicking Download button...
+2026-02-19 20:52:40,394 - INFO - Download button clicked.
+2026-02-19 20:52:40,395 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 20:52:40,559 - INFO - Terms of Use accepted.
+2026-02-19 20:52:40,629 - INFO - Submit button clicked.
+2026-02-19 20:52:43,630 - INFO - Request submitted successfully.
+2026-02-19 20:52:46,403 - INFO - Searching for country: Benin
+2026-02-19 20:52:49,086 - INFO - Selected country: Benin
+2026-02-19 20:52:51,088 - INFO - Selecting all datasets...
+2026-02-19 20:52:52,318 - INFO - Clicked 'Select all'.
+2026-02-19 20:52:52,319 - INFO - Clicking Download button...
+2026-02-19 20:52:53,430 - INFO - Download button clicked.
+2026-02-19 20:52:53,431 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 20:52:53,577 - INFO - Terms of Use accepted.
+2026-02-19 20:52:53,638 - INFO - Submit button clicked.
+2026-02-19 20:52:56,639 - INFO - Request submitted successfully.
+2026-02-19 20:52:59,442 - INFO - Searching for country: Botswana
+2026-02-19 20:53:15,655 - INFO - Selected country: Botswana
+2026-02-19 20:53:17,659 - INFO - Selecting all datasets...
+2026-02-19 20:53:20,246 - INFO - Clicked 'Select all'.
+2026-02-19 20:53:20,248 - INFO - Clicking Download button...
+2026-02-19 20:53:21,324 - INFO - Download button clicked.
+2026-02-19 20:53:21,325 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 20:53:21,953 - INFO - Terms of Use accepted.
+2026-02-19 20:53:22,076 - INFO - Submit button clicked.
+2026-02-19 20:53:25,077 - INFO - Request submitted successfully.
+2026-02-19 20:53:28,115 - INFO - Searching for country: Burkina Faso
+2026-02-19 20:53:44,443 - INFO - Selected country: Burkina Faso
+2026-02-19 20:53:46,444 - INFO - Selecting all datasets...
+2026-02-19 20:53:47,306 - INFO - Clicked 'Select all'.
+2026-02-19 20:53:47,307 - INFO - Clicking Download button...
+2026-02-19 20:53:48,378 - INFO - Download button clicked.
+2026-02-19 20:53:48,379 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 20:53:48,542 - INFO - Terms of Use accepted.
+2026-02-19 20:53:48,610 - INFO - Submit button clicked.
+2026-02-19 20:53:51,611 - INFO - Request submitted successfully.
+2026-02-19 20:53:54,243 - INFO - Searching for country: Burundi
+2026-02-19 20:53:56,968 - INFO - Selected country: Burundi
+2026-02-19 20:53:58,969 - INFO - Selecting all datasets...
+2026-02-19 20:54:00,927 - INFO - Clicked 'Select all'.
+2026-02-19 20:54:00,928 - INFO - Clicking Download button...
+2026-02-19 20:54:02,039 - INFO - Download button clicked.
+2026-02-19 20:54:02,039 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 20:54:02,189 - INFO - Terms of Use accepted.
+2026-02-19 20:54:02,248 - INFO - Submit button clicked.
+2026-02-19 20:54:05,248 - INFO - Request submitted successfully.
+2026-02-19 20:54:08,175 - INFO - Searching for country: Cabo Verde
+2026-02-19 20:54:39,318 - ERROR - Error searching country Cabo Verde: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:54:39,574 - INFO - Screenshot saved: screenshot_search_error_Cabo Verde_1771534479.png
+2026-02-19 20:54:39,575 - ERROR - Failed to process Cabo Verde: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 20:54:40,867 - INFO - Searching for country: Cameroon
+2026-02-19 20:54:44,893 - INFO - Selected country: Cameroon
+2026-02-19 20:54:46,895 - INFO - Selecting all datasets...
+2026-02-19 20:54:48,720 - INFO - Clicked 'Select all'.
+2026-02-19 20:54:48,721 - INFO - Clicking Download button...
+2026-02-19 20:54:49,794 - INFO - Download button clicked.
+2026-02-19 20:54:49,795 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 20:54:49,962 - INFO - Terms of Use accepted.
+2026-02-19 20:54:50,030 - INFO - Submit button clicked.
+2026-02-19 20:54:53,031 - INFO - Request submitted successfully.
+2026-02-19 20:54:55,378 - INFO - Searching for country: Central African Republic
+2026-02-19 20:54:58,339 - INFO - Selected country: Central African Republic
+2026-02-19 20:55:00,340 - INFO - Selecting all datasets...
+2026-02-19 20:55:03,330 - INFO - Clicked 'Select all'.
+2026-02-19 20:55:03,330 - INFO - Clicking Download button...
+2026-02-19 20:55:04,405 - INFO - Download button clicked.
+2026-02-19 20:55:04,406 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 20:55:04,611 - INFO - Terms of Use accepted.
+2026-02-19 20:55:04,679 - INFO - Submit button clicked.
+2026-02-19 20:55:07,680 - INFO - Request submitted successfully.
+2026-02-19 20:55:10,975 - INFO - Searching for country: Chad
+2026-02-19 20:55:13,631 - INFO - Selected country: Chad
+2026-02-19 20:55:15,635 - INFO - Selecting all datasets...
+2026-02-19 20:55:20,876 - INFO - Clicked 'Select all'.
+2026-02-19 20:55:20,877 - INFO - Clicking Download button...
+2026-02-19 20:55:21,952 - INFO - Download button clicked.
+2026-02-19 20:55:21,953 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 20:55:22,109 - INFO - Terms of Use accepted.
+2026-02-19 20:55:22,176 - INFO - Submit button clicked.
+2026-02-19 20:55:25,176 - INFO - Request submitted successfully.
+2026-02-19 20:55:27,950 - INFO - Searching for country: Comoros
+2026-02-19 20:55:44,824 - INFO - Selected country: Comoros
+2026-02-19 20:55:46,825 - INFO - Selecting all datasets...
+2026-02-19 20:55:47,682 - INFO - Clicked 'Select all'.
+2026-02-19 20:55:47,683 - INFO - Clicking Download button...
+2026-02-19 20:55:48,754 - INFO - Download button clicked.
+2026-02-19 20:55:48,755 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 20:55:48,905 - INFO - Terms of Use accepted.
+2026-02-19 20:55:48,973 - INFO - Submit button clicked.
+2026-02-19 20:55:51,974 - INFO - Request submitted successfully.
+2026-02-19 20:55:54,930 - INFO - Searching for country: Democratic Republic of the Congo
+2026-02-19 20:55:57,314 - INFO - Selected country: Democratic Republic of the Congo
+2026-02-19 20:55:59,315 - INFO - Selecting all datasets...
+2026-02-19 20:56:01,476 - INFO - Clicked 'Select all'.
+2026-02-19 20:56:01,477 - INFO - Clicking Download button...
+2026-02-19 20:56:02,538 - INFO - Download button clicked.
+2026-02-19 20:56:02,539 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 20:56:02,690 - INFO - Terms of Use accepted.
+2026-02-19 20:56:02,785 - INFO - Submit button clicked.
+2026-02-19 20:56:05,785 - INFO - Request submitted successfully.
+2026-02-19 20:56:08,369 - INFO - Searching for country: Republic of the Congo
+2026-02-19 20:56:24,784 - INFO - Selected country: Republic of the Congo
+2026-02-19 20:56:26,785 - INFO - Selecting all datasets...
+2026-02-19 20:56:29,258 - ERROR - Error selecting datasets: Message: element click intercepted: Element <label class="va-checkbox">...</label> is not clickable at point (448, 508). Other element would receive the click: <li>...</li>
+  (Session info: chrome=143.0.7499.146); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f4159331c04 <unknown>
+#3 0x5f415932fac8 <unknown>
+#4 0x5f415932d1ea <unknown>
+#5 0x5f415932c329 <unknown>
+#6 0x5f415931f642 <unknown>
+#7 0x5f415931efe7 <unknown>
+#8 0x5f4159376760 <unknown>
+#9 0x5f415931d7b2 <unknown>
+#10 0x5f415931e461 <unknown>
+#11 0x5f415986ddf9 <unknown>
+#12 0x5f4159870d5d <unknown>
+#13 0x5f4159856b41 <unknown>
+#14 0x5f415987193b <unknown>
+#15 0x5f415983d870 <unknown>
+#16 0x5f4159892828 <unknown>
+#17 0x5f41598929fc <unknown>
+#18 0x5f41598a4763 <unknown>
+#19 0x71a667e9caa4 <unknown>
+#20 0x71a667f29c6c <unknown>
+
+2026-02-19 20:56:29,468 - INFO - Screenshot saved: screenshot_select_datasets_error_1771534589.png
+2026-02-19 20:56:29,468 - ERROR - Failed to process Republic of the Congo: Message: element click intercepted: Element <label class="va-checkbox">...</label> is not clickable at point (448, 508). Other element would receive the click: <li>...</li>
+  (Session info: chrome=143.0.7499.146); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f4159331c04 <unknown>
+#3 0x5f415932fac8 <unknown>
+#4 0x5f415932d1ea <unknown>
+#5 0x5f415932c329 <unknown>
+#6 0x5f415931f642 <unknown>
+#7 0x5f415931efe7 <unknown>
+#8 0x5f4159376760 <unknown>
+#9 0x5f415931d7b2 <unknown>
+#10 0x5f415931e461 <unknown>
+#11 0x5f415986ddf9 <unknown>
+#12 0x5f4159870d5d <unknown>
+#13 0x5f4159856b41 <unknown>
+#14 0x5f415987193b <unknown>
+#15 0x5f415983d870 <unknown>
+#16 0x5f4159892828 <unknown>
+#17 0x5f41598929fc <unknown>
+#18 0x5f41598a4763 <unknown>
+#19 0x71a667e9caa4 <unknown>
+#20 0x71a667f29c6c <unknown>
+
+2026-02-19 20:56:30,785 - INFO - Searching for country: Djibouti
+2026-02-19 20:56:44,385 - INFO - Selected country: Djibouti
+2026-02-19 20:56:46,388 - INFO - Selecting all datasets...
+2026-02-19 20:56:48,372 - INFO - Clicked 'Select all'.
+2026-02-19 20:56:48,373 - INFO - Clicking Download button...
+2026-02-19 20:56:49,491 - INFO - Download button clicked.
+2026-02-19 20:56:49,491 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 20:56:49,642 - INFO - Terms of Use accepted.
+2026-02-19 20:56:49,713 - INFO - Submit button clicked.
+2026-02-19 20:56:52,714 - INFO - Request submitted successfully.
+2026-02-19 20:56:55,714 - INFO - Searching for country: Egypt
+2026-02-19 20:57:11,544 - INFO - Selected country: Egypt
+2026-02-19 20:57:13,547 - INFO - Selecting all datasets...
+2026-02-19 20:57:14,841 - INFO - Clicked 'Select all'.
+2026-02-19 20:57:14,842 - INFO - Clicking Download button...
+2026-02-19 20:57:15,973 - INFO - Download button clicked.
+2026-02-19 20:57:15,973 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 20:57:16,129 - INFO - Terms of Use accepted.
+2026-02-19 20:57:16,191 - INFO - Submit button clicked.
+2026-02-19 20:57:19,192 - INFO - Request submitted successfully.
+2026-02-19 20:57:21,974 - INFO - Searching for country: Equatorial Guinea
+2026-02-19 20:57:38,490 - INFO - Selected country: Equatorial Guinea
+2026-02-19 20:57:40,494 - INFO - Selecting all datasets...
+2026-02-19 20:57:41,823 - INFO - Clicked 'Select all'.
+2026-02-19 20:57:41,823 - INFO - Clicking Download button...
+2026-02-19 20:57:42,941 - INFO - Download button clicked.
+2026-02-19 20:57:42,941 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 20:57:43,085 - INFO - Terms of Use accepted.
+2026-02-19 20:57:43,151 - INFO - Submit button clicked.
+2026-02-19 20:57:46,152 - INFO - Request submitted successfully.
+2026-02-19 20:57:48,205 - INFO - Searching for country: Eritrea
+2026-02-19 20:58:05,134 - INFO - Selected country: Eritrea
+2026-02-19 20:58:07,136 - INFO - Selecting all datasets...
+2026-02-19 20:58:09,373 - INFO - Clicked 'Select all'.
+2026-02-19 20:58:09,374 - INFO - Clicking Download button...
+2026-02-19 20:58:10,449 - INFO - Download button clicked.
+2026-02-19 20:58:10,449 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 20:58:10,606 - INFO - Terms of Use accepted.
+2026-02-19 20:58:10,762 - INFO - Submit button clicked.
+2026-02-19 20:58:13,763 - INFO - Request submitted successfully.
+2026-02-19 20:58:16,182 - INFO - Searching for country: Eswatini
+2026-02-19 20:58:19,231 - INFO - Selected country: Eswatini
+2026-02-19 20:58:21,232 - INFO - Selecting all datasets...
+2026-02-19 20:58:23,137 - INFO - Clicked 'Select all'.
+2026-02-19 20:58:23,138 - INFO - Clicking Download button...
+2026-02-19 20:58:24,252 - INFO - Download button clicked.
+2026-02-19 20:58:24,252 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 20:58:24,398 - INFO - Terms of Use accepted.
+2026-02-19 20:58:24,460 - INFO - Submit button clicked.
+2026-02-19 20:58:27,461 - INFO - Request submitted successfully.
+2026-02-19 20:58:30,258 - INFO - Searching for country: Ethiopia
+2026-02-19 20:58:46,394 - INFO - Selected country: Ethiopia
+2026-02-19 20:58:48,395 - INFO - Selecting all datasets...
+2026-02-19 20:58:50,929 - INFO - Clicked 'Select all'.
+2026-02-19 20:58:50,929 - INFO - Clicking Download button...
+2026-02-19 20:58:52,009 - INFO - Download button clicked.
+2026-02-19 20:58:52,010 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 20:58:52,431 - INFO - Terms of Use accepted.
+2026-02-19 20:58:52,499 - INFO - Submit button clicked.
+2026-02-19 20:58:55,500 - INFO - Request submitted successfully.
+2026-02-19 20:58:58,275 - INFO - Searching for country: Gabon
+2026-02-19 20:59:01,030 - INFO - Selected country: Gabon
+2026-02-19 20:59:03,031 - INFO - Selecting all datasets...
+2026-02-19 20:59:05,161 - INFO - Clicked 'Select all'.
+2026-02-19 20:59:05,163 - INFO - Clicking Download button...
+2026-02-19 20:59:06,229 - INFO - Download button clicked.
+2026-02-19 20:59:06,230 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 20:59:06,381 - INFO - Terms of Use accepted.
+2026-02-19 20:59:06,447 - INFO - Submit button clicked.
+2026-02-19 20:59:09,448 - INFO - Request submitted successfully.
+2026-02-19 20:59:12,577 - INFO - Searching for country: Gambia
+2026-02-19 20:59:15,636 - INFO - Selected country: Gambia
+2026-02-19 20:59:17,637 - INFO - Selecting all datasets...
+2026-02-19 20:59:19,650 - INFO - Clicked 'Select all'.
+2026-02-19 20:59:19,651 - INFO - Clicking Download button...
+2026-02-19 20:59:20,798 - INFO - Download button clicked.
+2026-02-19 20:59:20,798 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 20:59:21,008 - INFO - Terms of Use accepted.
+2026-02-19 20:59:21,079 - INFO - Submit button clicked.
+2026-02-19 20:59:24,080 - INFO - Request submitted successfully.
+2026-02-19 20:59:26,771 - INFO - Searching for country: Ghana
+2026-02-19 20:59:43,439 - INFO - Selected country: Ghana
+2026-02-19 20:59:45,441 - INFO - Selecting all datasets...
+2026-02-19 20:59:47,398 - INFO - Clicked 'Select all'.
+2026-02-19 20:59:47,398 - INFO - Clicking Download button...
+2026-02-19 20:59:48,474 - INFO - Download button clicked.
+2026-02-19 20:59:48,475 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 20:59:48,644 - INFO - Terms of Use accepted.
+2026-02-19 20:59:48,713 - INFO - Submit button clicked.
+2026-02-19 20:59:51,714 - INFO - Request submitted successfully.
+2026-02-19 20:59:54,496 - INFO - Searching for country: Guinea
+2026-02-19 20:59:57,076 - INFO - Selected country: Guinea
+2026-02-19 20:59:59,078 - INFO - Selecting all datasets...
+2026-02-19 21:00:00,651 - INFO - Clicked 'Select all'.
+2026-02-19 21:00:00,652 - INFO - Clicking Download button...
+2026-02-19 21:00:01,714 - INFO - Download button clicked.
+2026-02-19 21:00:01,715 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 21:00:01,873 - INFO - Terms of Use accepted.
+2026-02-19 21:00:01,930 - INFO - Submit button clicked.
+2026-02-19 21:00:04,931 - INFO - Request submitted successfully.
+2026-02-19 21:00:07,824 - INFO - Searching for country: Guinea-Bissau
+2026-02-19 21:00:23,922 - INFO - Selected country: Guinea-Bissau
+2026-02-19 21:00:25,923 - INFO - Selecting all datasets...
+2026-02-19 21:00:27,665 - INFO - Clicked 'Select all'.
+2026-02-19 21:00:27,666 - INFO - Clicking Download button...
+2026-02-19 21:00:28,814 - INFO - Download button clicked.
+2026-02-19 21:00:28,815 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 21:00:28,972 - INFO - Terms of Use accepted.
+2026-02-19 21:00:29,040 - INFO - Submit button clicked.
+2026-02-19 21:00:32,040 - INFO - Request submitted successfully.
+2026-02-19 21:00:35,381 - INFO - Searching for country: Ivory Coast
+2026-02-19 21:00:44,209 - INFO - Selected country: Ivory Coast
+2026-02-19 21:00:46,209 - INFO - Selecting all datasets...
+2026-02-19 21:00:47,750 - INFO - Clicked 'Select all'.
+2026-02-19 21:00:47,751 - INFO - Clicking Download button...
+2026-02-19 21:00:48,862 - INFO - Download button clicked.
+2026-02-19 21:00:48,862 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 21:00:49,010 - INFO - Terms of Use accepted.
+2026-02-19 21:00:49,073 - INFO - Submit button clicked.
+2026-02-19 21:00:52,074 - INFO - Request submitted successfully.
+2026-02-19 21:00:54,652 - INFO - Searching for country: Kenya
+2026-02-19 21:00:57,610 - INFO - Selected country: Kenya
+2026-02-19 21:00:59,612 - INFO - Selecting all datasets...
+2026-02-19 21:01:01,935 - INFO - Clicked 'Select all'.
+2026-02-19 21:01:01,936 - INFO - Clicking Download button...
+2026-02-19 21:01:03,016 - INFO - Download button clicked.
+2026-02-19 21:01:03,021 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 21:01:03,255 - INFO - Terms of Use accepted.
+2026-02-19 21:01:03,323 - INFO - Submit button clicked.
+2026-02-19 21:01:06,324 - INFO - Request submitted successfully.
+2026-02-19 21:01:09,237 - INFO - Searching for country: Lesotho
+2026-02-19 21:01:21,360 - INFO - Selected country: Lesotho
+2026-02-19 21:01:23,361 - INFO - Selecting all datasets...
+2026-02-19 21:01:24,215 - INFO - Clicked 'Select all'.
+2026-02-19 21:01:24,216 - INFO - Clicking Download button...
+2026-02-19 21:01:25,289 - INFO - Download button clicked.
+2026-02-19 21:01:25,290 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 21:01:25,503 - INFO - Terms of Use accepted.
+2026-02-19 21:01:25,570 - INFO - Submit button clicked.
+2026-02-19 21:01:28,570 - INFO - Request submitted successfully.
+2026-02-19 21:01:31,271 - INFO - Searching for country: Liberia
+2026-02-19 21:01:52,489 - ERROR - Error searching country Liberia: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 21:01:52,724 - INFO - Screenshot saved: screenshot_search_error_Liberia_1771534912.png
+2026-02-19 21:01:52,724 - ERROR - Failed to process Liberia: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 21:01:54,675 - INFO - Searching for country: Libya
+2026-02-19 21:01:58,204 - INFO - Selected country: Libya
+2026-02-19 21:02:00,207 - INFO - Selecting all datasets...
+2026-02-19 21:02:02,801 - INFO - Clicked 'Select all'.
+2026-02-19 21:02:02,802 - INFO - Clicking Download button...
+2026-02-19 21:02:03,952 - INFO - Download button clicked.
+2026-02-19 21:02:03,953 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 21:02:04,187 - INFO - Terms of Use accepted.
+2026-02-19 21:02:04,255 - INFO - Submit button clicked.
+2026-02-19 21:02:07,256 - INFO - Request submitted successfully.
+2026-02-19 21:02:09,876 - INFO - Searching for country: Madagascar
+2026-02-19 21:02:22,457 - INFO - Selected country: Madagascar
+2026-02-19 21:02:24,458 - INFO - Selecting all datasets...
+2026-02-19 21:02:25,399 - INFO - Clicked 'Select all'.
+2026-02-19 21:02:25,400 - INFO - Clicking Download button...
+2026-02-19 21:02:26,474 - INFO - Download button clicked.
+2026-02-19 21:02:26,475 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 21:02:26,661 - INFO - Terms of Use accepted.
+2026-02-19 21:02:26,735 - INFO - Submit button clicked.
+2026-02-19 21:02:29,736 - INFO - Request submitted successfully.
+2026-02-19 21:02:32,389 - INFO - Searching for country: Malawi
+2026-02-19 21:02:35,300 - INFO - Selected country: Malawi
+2026-02-19 21:02:37,303 - INFO - Selecting all datasets...
+2026-02-19 21:02:39,612 - INFO - Clicked 'Select all'.
+2026-02-19 21:02:39,612 - INFO - Clicking Download button...
+2026-02-19 21:02:40,724 - INFO - Download button clicked.
+2026-02-19 21:02:40,725 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 21:02:40,907 - INFO - Terms of Use accepted.
+2026-02-19 21:02:40,971 - INFO - Submit button clicked.
+2026-02-19 21:02:43,971 - INFO - Request submitted successfully.
+2026-02-19 21:02:46,700 - INFO - Searching for country: Mali
+2026-02-19 21:02:59,160 - INFO - Selected country: Mali
+2026-02-19 21:03:01,160 - INFO - Selecting all datasets...
+2026-02-19 21:03:07,158 - INFO - Clicked 'Select all'.
+2026-02-19 21:03:07,158 - INFO - Clicking Download button...
+2026-02-19 21:03:08,398 - INFO - Download button clicked.
+2026-02-19 21:03:08,399 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 21:03:08,619 - INFO - Terms of Use accepted.
+2026-02-19 21:03:08,687 - INFO - Submit button clicked.
+2026-02-19 21:03:11,688 - INFO - Request submitted successfully.
+2026-02-19 21:03:14,511 - INFO - Searching for country: Mauritania
+2026-02-19 21:03:17,778 - INFO - Selected country: Mauritania
+2026-02-19 21:03:19,779 - INFO - Selecting all datasets...
+2026-02-19 21:03:23,876 - INFO - Clicked 'Select all'.
+2026-02-19 21:03:23,877 - INFO - Clicking Download button...
+2026-02-19 21:03:24,990 - INFO - Download button clicked.
+2026-02-19 21:03:24,991 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 21:03:25,272 - INFO - Terms of Use accepted.
+2026-02-19 21:03:25,334 - INFO - Submit button clicked.
+2026-02-19 21:03:28,335 - INFO - Request submitted successfully.
+2026-02-19 21:03:30,332 - INFO - Searching for country: Mauritius
+2026-02-19 21:03:47,443 - INFO - Selected country: Mauritius
+2026-02-19 21:03:49,444 - INFO - Selecting all datasets...
+2026-02-19 21:03:50,358 - INFO - Clicked 'Select all'.
+2026-02-19 21:03:50,359 - INFO - Clicking Download button...
+2026-02-19 21:03:51,448 - INFO - Download button clicked.
+2026-02-19 21:03:51,453 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 21:03:51,631 - INFO - Terms of Use accepted.
+2026-02-19 21:03:51,704 - INFO - Submit button clicked.
+2026-02-19 21:03:54,705 - INFO - Request submitted successfully.
+2026-02-19 21:03:57,567 - INFO - Searching for country: Morocco
+2026-02-19 21:04:00,659 - INFO - Selected country: Morocco
+2026-02-19 21:04:02,660 - INFO - Selecting all datasets...
+2026-02-19 21:04:09,023 - INFO - Clicked 'Select all'.
+2026-02-19 21:04:09,023 - INFO - Clicking Download button...
+2026-02-19 21:04:10,334 - INFO - Download button clicked.
+2026-02-19 21:04:10,335 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 21:04:10,536 - INFO - Terms of Use accepted.
+2026-02-19 21:04:10,605 - INFO - Submit button clicked.
+2026-02-19 21:04:13,606 - INFO - Request submitted successfully.
+2026-02-19 21:04:16,922 - INFO - Searching for country: Mozambique
+2026-02-19 21:04:19,694 - INFO - Selected country: Mozambique
+2026-02-19 21:04:21,695 - INFO - Selecting all datasets...
+2026-02-19 21:04:24,081 - INFO - Clicked 'Select all'.
+2026-02-19 21:04:24,082 - INFO - Clicking Download button...
+2026-02-19 21:04:25,152 - INFO - Download button clicked.
+2026-02-19 21:04:25,153 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 21:04:25,950 - INFO - Terms of Use accepted.
+2026-02-19 21:04:26,018 - INFO - Submit button clicked.
+2026-02-19 21:04:29,019 - INFO - Request submitted successfully.
+2026-02-19 21:04:32,068 - INFO - Searching for country: Namibia
+2026-02-19 21:04:48,831 - INFO - Selected country: Namibia
+2026-02-19 21:04:50,832 - INFO - Selecting all datasets...
+2026-02-19 21:04:55,572 - INFO - Clicked 'Select all'.
+2026-02-19 21:04:55,573 - INFO - Clicking Download button...
+2026-02-19 21:04:56,669 - INFO - Download button clicked.
+2026-02-19 21:04:56,669 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 21:04:56,838 - INFO - Terms of Use accepted.
+2026-02-19 21:04:56,911 - INFO - Submit button clicked.
+2026-02-19 21:04:59,912 - INFO - Request submitted successfully.
+2026-02-19 21:05:03,679 - INFO - Searching for country: Niger
+2026-02-19 21:05:05,969 - INFO - Selected country: Niger
+2026-02-19 21:05:07,970 - INFO - Selecting all datasets...
+2026-02-19 21:05:09,549 - INFO - Clicked 'Select all'.
+2026-02-19 21:05:09,550 - INFO - Clicking Download button...
+2026-02-19 21:05:10,620 - INFO - Download button clicked.
+2026-02-19 21:05:10,621 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 21:05:10,834 - INFO - Terms of Use accepted.
+2026-02-19 21:05:10,903 - INFO - Submit button clicked.
+2026-02-19 21:05:13,904 - INFO - Request submitted successfully.
+2026-02-19 21:05:17,175 - INFO - Searching for country: Nigeria
+2026-02-19 21:05:19,988 - INFO - Selected country: Nigeria
+2026-02-19 21:05:21,989 - INFO - Selecting all datasets...
+2026-02-19 21:05:23,223 - INFO - Clicked 'Select all'.
+2026-02-19 21:05:23,224 - INFO - Clicking Download button...
+2026-02-19 21:05:24,300 - INFO - Download button clicked.
+2026-02-19 21:05:24,301 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 21:05:24,461 - INFO - Terms of Use accepted.
+2026-02-19 21:05:24,538 - INFO - Submit button clicked.
+2026-02-19 21:05:27,540 - INFO - Request submitted successfully.
+2026-02-19 21:05:30,336 - INFO - Searching for country: Rwanda
+2026-02-19 21:05:33,241 - INFO - Selected country: Rwanda
+2026-02-19 21:05:35,242 - INFO - Selecting all datasets...
+2026-02-19 21:05:37,821 - INFO - Clicked 'Select all'.
+2026-02-19 21:05:37,821 - INFO - Clicking Download button...
+2026-02-19 21:05:38,966 - INFO - Download button clicked.
+2026-02-19 21:05:38,967 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 21:05:39,282 - INFO - Terms of Use accepted.
+2026-02-19 21:05:39,363 - INFO - Submit button clicked.
+2026-02-19 21:05:42,364 - INFO - Request submitted successfully.
+2026-02-19 21:05:44,548 - INFO - Searching for country: Sao Tome and Principe
+2026-02-19 21:06:06,711 - ERROR - Error searching country Sao Tome and Principe: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 21:06:06,952 - INFO - Screenshot saved: screenshot_search_error_Sao Tome and Principe_1771535166.png
+2026-02-19 21:06:06,953 - ERROR - Failed to process Sao Tome and Principe: Message: 
+Stacktrace:
+#0 0x5f41598a540a <unknown>
+#1 0x5f41592d976b <unknown>
+#2 0x5f415932ae88 <unknown>
+#3 0x5f415932b0c1 <unknown>
+#4 0x5f41593792c4 <unknown>
+#5 0x5f4159376760 <unknown>
+#6 0x5f415931d7b2 <unknown>
+#7 0x5f415931e461 <unknown>
+#8 0x5f415986ddf9 <unknown>
+#9 0x5f4159870d5d <unknown>
+#10 0x5f4159856b41 <unknown>
+#11 0x5f415987193b <unknown>
+#12 0x5f415983d870 <unknown>
+#13 0x5f4159892828 <unknown>
+#14 0x5f41598929fc <unknown>
+#15 0x5f41598a4763 <unknown>
+#16 0x71a667e9caa4 <unknown>
+#17 0x71a667f29c6c <unknown>
+
+2026-02-19 21:06:08,332 - INFO - Searching for country: Senegal
+2026-02-19 21:06:26,015 - INFO - Selected country: Senegal
+2026-02-19 21:06:28,016 - INFO - Selecting all datasets...
+2026-02-19 21:06:29,864 - INFO - Clicked 'Select all'.
+2026-02-19 21:06:29,865 - INFO - Clicking Download button...
+2026-02-19 21:06:30,982 - INFO - Download button clicked.
+2026-02-19 21:06:30,983 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 21:06:31,176 - INFO - Terms of Use accepted.
+2026-02-19 21:06:31,247 - INFO - Submit button clicked.
+2026-02-19 21:06:34,247 - INFO - Request submitted successfully.
+2026-02-19 21:06:37,076 - INFO - Searching for country: Seychelles
+2026-02-19 21:06:40,356 - INFO - Selected country: Seychelles
+2026-02-19 21:06:42,357 - INFO - Selecting all datasets...
+2026-02-19 21:06:44,106 - INFO - Clicked 'Select all'.
+2026-02-19 21:06:44,107 - INFO - Clicking Download button...
+2026-02-19 21:06:45,178 - INFO - Download button clicked.
+2026-02-19 21:06:45,179 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 21:06:45,323 - INFO - Terms of Use accepted.
+2026-02-19 21:06:45,389 - INFO - Submit button clicked.
+2026-02-19 21:06:48,390 - INFO - Request submitted successfully.
+2026-02-19 21:06:51,058 - INFO - Searching for country: Sierra Leone
+2026-02-19 21:07:07,707 - INFO - Selected country: Sierra Leone
+2026-02-19 21:07:09,711 - INFO - Selecting all datasets...
+2026-02-19 21:07:11,418 - INFO - Clicked 'Select all'.
+2026-02-19 21:07:11,419 - INFO - Clicking Download button...
+2026-02-19 21:07:12,495 - INFO - Download button clicked.
+2026-02-19 21:07:12,495 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 21:07:12,767 - INFO - Terms of Use accepted.
+2026-02-19 21:07:12,838 - INFO - Submit button clicked.
+2026-02-19 21:07:15,839 - INFO - Request submitted successfully.
+2026-02-19 21:07:18,069 - INFO - Searching for country: Somalia
+2026-02-19 21:07:21,833 - INFO - Selected country: Somalia
+2026-02-19 21:07:23,833 - INFO - Selecting all datasets...
+2026-02-19 21:07:26,748 - INFO - Clicked 'Select all'.
+2026-02-19 21:07:26,749 - INFO - Clicking Download button...
+2026-02-19 21:07:27,871 - INFO - Download button clicked.
+2026-02-19 21:07:27,871 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 21:07:28,030 - INFO - Terms of Use accepted.
+2026-02-19 21:07:28,147 - INFO - Submit button clicked.
+2026-02-19 21:07:31,148 - INFO - Request submitted successfully.
+2026-02-19 21:07:33,224 - INFO - Searching for country: South Africa
+2026-02-19 21:07:49,895 - INFO - Selected country: South Africa
+2026-02-19 21:07:51,896 - INFO - Selecting all datasets...
+2026-02-19 21:07:55,214 - INFO - Clicked 'Select all'.
+2026-02-19 21:07:55,214 - INFO - Clicking Download button...
+2026-02-19 21:07:56,364 - INFO - Download button clicked.
+2026-02-19 21:07:56,365 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 21:07:56,672 - INFO - Terms of Use accepted.
+2026-02-19 21:07:56,742 - INFO - Submit button clicked.
+2026-02-19 21:07:59,743 - INFO - Request submitted successfully.
+2026-02-19 21:08:02,610 - INFO - Searching for country: South Sudan
+2026-02-19 21:08:05,379 - INFO - Selected country: South Sudan
+2026-02-19 21:08:07,380 - INFO - Selecting all datasets...
+2026-02-19 21:08:10,051 - INFO - Clicked 'Select all'.
+2026-02-19 21:08:10,052 - INFO - Clicking Download button...
+2026-02-19 21:08:11,115 - INFO - Download button clicked.
+2026-02-19 21:08:11,116 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 21:08:11,262 - INFO - Terms of Use accepted.
+2026-02-19 21:08:11,325 - INFO - Submit button clicked.
+2026-02-19 21:08:14,325 - INFO - Request submitted successfully.
+2026-02-19 21:08:17,202 - INFO - Searching for country: Sudan
+2026-02-19 21:08:33,325 - INFO - Selected country: Sudan
+2026-02-19 21:08:35,326 - INFO - Selecting all datasets...
+2026-02-19 21:08:41,712 - INFO - Clicked 'Select all'.
+2026-02-19 21:08:41,714 - INFO - Clicking Download button...
+2026-02-19 21:08:42,842 - INFO - Download button clicked.
+2026-02-19 21:08:42,843 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 21:08:43,018 - INFO - Terms of Use accepted.
+2026-02-19 21:08:43,087 - INFO - Submit button clicked.
+2026-02-19 21:08:46,087 - INFO - Request submitted successfully.
+2026-02-19 21:08:48,887 - INFO - Searching for country: Tanzania
+2026-02-19 21:08:51,848 - INFO - Selected country: Tanzania
+2026-02-19 21:08:53,848 - INFO - Selecting all datasets...
+2026-02-19 21:08:55,645 - INFO - Clicked 'Select all'.
+2026-02-19 21:08:55,645 - INFO - Clicking Download button...
+2026-02-19 21:08:56,759 - INFO - Download button clicked.
+2026-02-19 21:08:56,760 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 21:08:56,911 - INFO - Terms of Use accepted.
+2026-02-19 21:08:56,973 - INFO - Submit button clicked.
+2026-02-19 21:08:59,973 - INFO - Request submitted successfully.
+2026-02-19 21:09:02,657 - INFO - Searching for country: Togo
+2026-02-19 21:09:06,104 - INFO - Selected country: Togo
+2026-02-19 21:09:08,106 - INFO - Selecting all datasets...
+2026-02-19 21:09:09,846 - INFO - Clicked 'Select all'.
+2026-02-19 21:09:09,847 - INFO - Clicking Download button...
+2026-02-19 21:09:10,970 - INFO - Download button clicked.
+2026-02-19 21:09:10,971 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 21:09:11,134 - INFO - Terms of Use accepted.
+2026-02-19 21:09:11,203 - INFO - Submit button clicked.
+2026-02-19 21:09:14,203 - INFO - Request submitted successfully.
+2026-02-19 21:09:16,935 - INFO - Searching for country: Tunisia
+2026-02-19 21:09:19,538 - INFO - Selected country: Tunisia
+2026-02-19 21:09:21,542 - INFO - Selecting all datasets...
+2026-02-19 21:09:23,910 - INFO - Clicked 'Select all'.
+2026-02-19 21:09:23,911 - INFO - Clicking Download button...
+2026-02-19 21:09:24,974 - INFO - Download button clicked.
+2026-02-19 21:09:24,974 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 21:09:25,124 - INFO - Terms of Use accepted.
+2026-02-19 21:09:25,184 - INFO - Submit button clicked.
+2026-02-19 21:09:28,185 - INFO - Request submitted successfully.
+2026-02-19 21:09:30,756 - INFO - Searching for country: Uganda
+2026-02-19 21:09:33,058 - INFO - Selected country: Uganda
+2026-02-19 21:09:35,058 - INFO - Selecting all datasets...
+2026-02-19 21:09:36,843 - INFO - Clicked 'Select all'.
+2026-02-19 21:09:36,844 - INFO - Clicking Download button...
+2026-02-19 21:09:38,002 - INFO - Download button clicked.
+2026-02-19 21:09:38,003 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 21:09:38,158 - INFO - Terms of Use accepted.
+2026-02-19 21:09:38,223 - INFO - Submit button clicked.
+2026-02-19 21:09:41,223 - INFO - Request submitted successfully.
+2026-02-19 21:09:44,047 - INFO - Searching for country: Zambia
+2026-02-19 21:10:00,283 - INFO - Selected country: Zambia
+2026-02-19 21:10:02,287 - INFO - Selecting all datasets...
+2026-02-19 21:10:02,780 - INFO - Clicked 'Select all'.
+2026-02-19 21:10:02,781 - INFO - Clicking Download button...
+2026-02-19 21:10:03,855 - INFO - Download button clicked.
+2026-02-19 21:10:03,856 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 21:10:04,055 - INFO - Terms of Use accepted.
+2026-02-19 21:10:04,123 - INFO - Submit button clicked.
+2026-02-19 21:10:07,124 - INFO - Request submitted successfully.
+2026-02-19 21:10:09,140 - INFO - Searching for country: Zimbabwe
+2026-02-19 21:10:21,883 - INFO - Selected country: Zimbabwe
+2026-02-19 21:10:23,884 - INFO - Selecting all datasets...
+2026-02-19 21:10:26,991 - INFO - Clicked 'Select all'.
+2026-02-19 21:10:26,992 - INFO - Clicking Download button...
+2026-02-19 21:10:28,108 - INFO - Download button clicked.
+2026-02-19 21:10:28,109 - INFO - Filling email: dsconite@gmail.com
+2026-02-19 21:10:28,270 - INFO - Terms of Use accepted.
+2026-02-19 21:10:28,339 - INFO - Submit button clicked.
+2026-02-19 21:10:31,340 - INFO - Request submitted successfully.
+2026-02-19 21:10:34,276 - INFO - Closing driver...
