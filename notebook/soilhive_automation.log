@@ -43333,3 +43333,41 @@ Zimbabwe'
 2026-03-17 13:00:06,414 - INFO - Request submitted.
 2026-03-17 13:00:09,960 - INFO - [91/93] Processing: Croatia
 2026-03-17 13:00:09,962 - INFO -   Typing: 'Croatia'
+2026-03-17 13:00:25,315 - INFO -   Clicked: 'Croatia
+Croatia'
+2026-03-17 13:00:26,148 - INFO -   Loading detected — waiting for completion...
+2026-03-17 13:00:29,134 - INFO -   Page fully loaded.
+2026-03-17 13:00:30,138 - INFO - Selecting all datasets...
+2026-03-17 13:00:30,221 - INFO - Clicked 'Select all'.
+2026-03-17 13:00:30,222 - INFO - Clicking Download...
+2026-03-17 13:00:30,254 - INFO - Download clicked.
+2026-03-17 13:00:30,254 - INFO - Filling email: dsconite@gmail.com
+2026-03-17 13:00:30,431 - INFO - Terms accepted.
+2026-03-17 13:00:33,464 - INFO - Request submitted.
+2026-03-17 13:00:37,487 - INFO - [92/93] Processing: Liechtenstein
+2026-03-17 13:00:37,487 - INFO -   Typing: 'Liechtenstein'
+2026-03-17 13:00:48,788 - INFO -   Clicked: 'Liechtenstein
+Liechtenstein'
+2026-03-17 13:00:49,243 - INFO -   Loading detected — waiting for completion...
+2026-03-17 13:00:51,465 - INFO -   Page fully loaded.
+2026-03-17 13:00:52,468 - INFO - Selecting all datasets...
+2026-03-17 13:00:52,562 - INFO - Clicked 'Select all'.
+2026-03-17 13:00:52,563 - INFO - Clicking Download...
+2026-03-17 13:00:52,596 - INFO - Download clicked.
+2026-03-17 13:00:52,597 - INFO - Filling email: dsconite@gmail.com
+2026-03-17 13:00:52,763 - INFO - Terms accepted.
+2026-03-17 13:00:55,796 - INFO - Request submitted.
+2026-03-17 13:00:59,652 - INFO - [93/93] Processing: Malta
+2026-03-17 13:00:59,654 - INFO -   Typing: 'Malta'
+2026-03-17 13:01:01,796 - INFO -   Clicked: 'Malta
+Malta'
+2026-03-17 13:01:03,482 - INFO -   Loading detected — waiting for completion...
+2026-03-17 13:01:05,286 - INFO -   Page fully loaded.
+2026-03-17 13:01:06,287 - INFO - Selecting all datasets...
+2026-03-17 13:01:06,374 - INFO - Clicked 'Select all'.
+2026-03-17 13:01:06,374 - INFO - Clicking Download...
+2026-03-17 13:01:06,407 - INFO - Download clicked.
+2026-03-17 13:01:06,408 - INFO - Filling email: dsconite@gmail.com
+2026-03-17 13:01:06,554 - INFO - Terms accepted.
+2026-03-17 13:01:09,580 - INFO - Request submitted.
+2026-03-17 13:01:12,990 - INFO - Closing driver...
