@@ -1,114 +1,188 @@
 # SoilHive
 
-A soil data collection and analysis pipeline that aggregates open-source soil measurement databases into a unified dataset for exploratory analysis and machine learning research.
+A geospatial soil data pipeline that aggregates open-source soil measurement databases,
+builds a clean surface soil dataset, and integrates it with crop yield observations to
+produce an ML-ready Soil × Yield dataset for yield prediction and fertilizer recommendation.
 
-## Overview
+---
 
-SoilHive consolidates soil property observations from multiple global databases into a single structured dataset. The combined dataset contains over 2 million georeferenced measurements covering 24 soil properties across 56,000+ locations worldwide, spanning measurements from 1920 to 2015.
+## Project Objectives
+
+- Consolidate heterogeneous soil observations from 4 global databases into a single long-format dataset
+- Apply depth-aware aggregation restricted to the 0–30 cm surface layer
+- Produce a clean, wide-format global soil dataset after temporal and spatial deduplication
+- Spatially join the soil dataset with GYGA crop yield observations
+- Output a combined Soil × Yield dataset ready for supervised ML
+
+---
 
 ## Data Sources
 
-| Source | Description |
-|---|---|
-| WoSIS | World Soil Information Service - primary source of physicochemical measurements (sole temporal coverage: 1920–2015) |
-| CAROB | Harmonized crop and soil research data |
-| iSDA Field Data | iSDA Africa field soil measurements |
-| Global Soil Nematode DB | Nematode abundance by soil horizon |
-
-## Dataset Schema
-
-Each source file is loaded in long format (one row = one property measurement). The raw extracted files contain 15 columns:
-
-| Column | Type | Description |
+| Source | Records | Description |
 |---|---|---|
-| `id` | int | Record identifier |
-| `lat` / `lon` | float | Geographic coordinates |
-| `property` | str | Soil property name (harmonised) |
-| `original_name` | str | Property name as recorded in the source database |
-| `upper_depth_cm` | float | Top of the sampling horizon (cm) |
-| `lower_depth_cm` | float | Bottom of the sampling horizon (cm) |
-| `value` | float | Measured value |
-| `unit` | str | Unit of measurement (~20% missing, mainly nematode counts) |
-| `sampling_date` | float | Year of soil sampling (~20% missing) |
-| `license` | str | Data license (e.g., CC BY 4.0) |
-| `h3_index` | str | Uber H3 spatial index at resolution 3 |
-| `publication_date` | str | Date the record was published |
-| `data_source` | str | Source database name |
-| `source_file` | str | Name of the originating source folder |
+| WoSIS | 1,872,802 | World Soil Information Service — primary physicochemical measurements (1920–2015) |
+| iSDA Field Data | 122,572 | iSDA Africa field soil measurements |
+| Global Soil Nematode DB | 25,158 | Nematode abundance by soil horizon |
+| CAROB | 17,101 | Harmonized crop and soil research data |
+| **GYGA** | 56,516 | Global Yield Gap Atlas — crop yield observations at research stations |
 
-A `country` column is added during EDA via a spatial join with Natural Earth boundaries.
+**Note on source folders:** `data/csv_country/` and `data/extracted/` contain the same 77 files
+with identical content (1,971,722 rows each). The pipeline uses `extracted/` as the single
+canonical source; `csv_country/` is a redundant copy.
 
-## Soil Properties Covered
+---
 
-`sand`, `clay`, `silt`, `pH`, `N`, `occ` (organic carbon), `CaCO3`, `CEC`, `BD` (bulk density), `TC` (total carbon), `CF` (coarse fragments), `EC` (electrical conductivity), `P`, `K`, `Ca`, `Mg`, `Na`, `Al`, `Cu`, `Fe`, `Mn`, `WR_volumetric`, `WR_gravimetric`, `nematode`
+## Soil Properties
 
-## Dataset Statistics
+24 harmonised properties across 73 original field names:
 
-- **Total observations:** 2,037,633
-- **Unique locations:** 56,991
-- **Soil properties:** 24 (73 original names harmonised)
-- **Depth range:** 0 to 2,900 cm (mean layer thickness: 27 cm)
-- **Temporal range:** 1920 to 2015 (peak: 1990s — 451,917 obs)
-- **Sampling date coverage:** ~79.8% of records have a sampling date
-- **Wide-format pivot** (one row per location, properties as columns): 45,241 rows × 18 columns
+| Category | Properties |
+|---|---|
+| Texture | `sand`, `clay`, `silt` |
+| Chemistry | `pH`, `N`, `occ` (organic C), `TC`, `CaCO3`, `CEC`, `EC`, `P` |
+| Cations | `K`, `Ca`, `Mg`, `Na`, `Al`, `Cu`, `Fe`, `Mn` |
+| Physical | `BD` (bulk density), `CF` (coarse fragments), `WR_gravimetric`, `WR_volumetric` |
+| Biology | `nematode` |
 
-## Data Quality
+---
+
+## Pipeline — `02_build_clean_dataset.ipynb`
+
+| Step | Description | Output |
+|---|---|---|
+| 1. Load | Concatenate all 77 `output_data_points.csv` from `extracted/` | 1,971,722 rows, long format |
+| 2. Clean | Drop null coordinates/values; depth consistency check; drop exact duplicates | ~2,024,191 rows |
+| 3. Surface filter | Keep layers that intersect 0–30 cm; compute overlap weight | Rows with `overlap_weight > 0` |
+| 4. Depth-weighted agg | Average values weighted by layer overlap within 0–30 cm, per (lat, lon, property, date) | 200,877 rows |
+| 5. Temporal filter | Retain records with `sampling_date >= 2000` | Subset with known modern dates |
+| 6. Spatial agg | Aggregate multiple observations per (lat, lon, property) — mean, std, count | 52,714 rows |
+| 7. Pivot wide | One row per location; properties as columns | 10,662 rows x 17 columns |
+| 8. Uncertainty | Add `{property}_std` and `{property}_n` columns | 47 columns |
+| 9. Add country | Spatial join with Natural Earth boundaries | 10,432 rows (230 offshore dropped) |
+| 10. Global export | Drop columns > 70% missing; impute remainder with global median | `soil_clean_global.csv` |
+| 11. Per-country export | Adaptive threshold cleaning per country | `clean_by_country/` |
+| 12. Soil x Yield join | cKDTree spatial join (1 degree radius, k=5) with GYGA yield data | `soil_x_yield_combined.csv` |
+
+---
+
+## Output Datasets
+
+### `data/soil_clean_global.csv`
+
+Global soil dataset in wide format after full pipeline cleaning.
+
+- **Countries:** 15 (Australia, France, Germany, Netherlands, Switzerland, Cameroon,
+  Burkina Faso, Albania, Georgia, Belgium, Benin, Italy, Luxembourg, Tunisia, Spain)
+- **Columns:** soil features + `{feature}_std` + `{feature}_n` + `country`
+- **Missing strategy:** columns > 70% missing dropped; remainder imputed with global median
+
+### `data/clean_by_country/`
+
+Per-country wide-format CSVs with adaptive threshold cleaning and median imputation.
+Currently produced for: Australia, France, Germany, Netherlands.
+
+### `data/soil_x_yield_combined.csv`
+
+Spatially joined Soil x Yield dataset. One row = one crop x station x year observation
+enriched with mean topsoil properties from the nearest SoilHive soil points.
+
+**Join method:** `scipy.spatial.cKDTree` — for each GYGA station with valid coordinates,
+finds up to 5 nearest soil points within 1 degree (~110 km) and averages their soil features.
+
+**Coverage note:** The temporal filter (`sampling_date >= 2000`) limits soil coverage to
+15 countries. Yield stations outside that geographic footprint are excluded from the combined
+dataset.
+
+| Column group | Columns |
+|---|---|
+| Yield targets | `YA`, `YW`, `YP`, `YG`, `log_YA`, `yield_gap_pct` |
+| Soil features | Available subset from `soil_clean_global` |
+| Metadata | `STATIONNAME`, `COUNTRY`, `LATITUDE`, `LONGITUDE`, `ELEVATION_METER`, `HARVESTYEAR`, `CROP`, `crop_clean` |
+| Join QA | `n_soil_samples`, `min_dist_deg` |
+
+---
+
+## Raw Dataset Statistics
+
+| Metric | Value |
+|---|---|
+| Total raw observations | 1,971,722 |
+| Unique locations | 56,991 |
+| Soil properties | 24 harmonised (73 original names) |
+| Depth range | 0–2,900 cm |
+| Temporal range | 1920–2015 |
+| Records with sampling date | ~79.8% |
+| Source folders | `csv_country/` and `extracted/` are exact duplicates — use one only |
+
+---
+
+## Data Quality Notes
 
 | Issue | Detail |
 |---|---|
-| Missing `sampling_date` | ~20% overall; source-dependent |
-| Missing `unit` | ~20% (mainly nematode records) |
-| Functional duplicates | 1,138,087 rows (55.85%) — deduplicate before modelling |
-| Spatial co-located replicates | 1,243,951 rows (61.05%) |
-| Depth validity | 99.4% valid (upper < lower); 0.6% null depth |
+| Duplicate source folders | `csv_country/` = `extracted/` — identical byte-for-byte; pipeline uses `extracted/` |
+| Missing `sampling_date` | ~20% of raw records; WoSIS-dominant |
+| Temporal filter impact | Only records with `sampling_date >= 2000` are retained — major row reduction |
+| Post-pipeline sparsity | Most locations have only a subset of the 24 properties |
+| Spatial imbalance | Australia (~77% of clean rows) and Western Europe dominate post-2000 |
+| Skewed distributions | `occ`, `N`, `EC`, `Al` strongly right-skewed (skew > 4) |
+| Texture constraint | sand + clay + silt ~= 100 — treat as compositional data |
 
-## Key EDA Findings & ML Readiness
-
-| Dimension | Finding | ML Implication |
-|-----------|---------|----------------|
-| **Format** | Long format, ~2M rows, 24 properties | Pivot to wide format before modelling; expect high sparsity |
-| **Missing data** | `sampling_date` ~20% missing; `unit` ~20% | Temporal features unreliable; impute or drop |
-| **Duplicates** | 55.85% functional duplicates | Deduplicate before train/test split to prevent leakage |
-| **Depth** | Surface-biased (0–30 cm dominates) | Use `upper_depth_cm` as a feature; depth-stratified models recommended |
-| **Distributions** | OC (`occ`), N, EC strongly right-skewed (skew > 4) | Log-transform skewed targets; robust scalers for features |
-| **Texture** | Sand + clay + silt ≈ 100 constraint | Compositional data — use log-ratio transforms (e.g., Aitchison) |
-| **Temporal** | Biased toward 1970s–80s; post-2000 only 18.7% | Models may not reflect current soil state; temporal reweighting advised |
-| **Spatial** | Europe and North America dominant; Africa and tropics underrepresented | Spatial cross-validation required; regional bias correction needed |
-| **Sources** | 4 sources with different property coverage and date completeness | Use `data_source` as a categorical feature; harmonise units before combining |
-
-## Notebooks
-
-### `01_eda.ipynb`
-| Section | Topic |
-|---------|-------|
-| 1 | Dataset overview |
-| 2 | Data quality analysis |
-| 3 | Temporal analysis |
-| 4 | Depth analysis |
-| 5 | Distribution analysis (key soil variables) |
-| 6 | Spatial analysis |
+---
 
 ## Project Structure
 
 ```
 SoilHive/
 ├── data/
-│   ├── combined_output_data_points.csv   # Merged output (generated)
-│   └── ...                               # Raw source CSV files
+│   ├── extracted/                        # 77 source folders (canonical source)
+│   │   └── {id}/output_data_points.csv
+│   ├── csv_country/                      # Identical copy of extracted/ — redundant
+│   ├── clean_by_country/                 # Per-country cleaned CSVs (4 countries)
+│   ├── global_yield_clean.csv            # GYGA yield observations (56,516 rows)
+│   ├── soil_clean_global.csv             # Global clean soil dataset (generated)
+│   └── soil_x_yield_combined.csv         # Soil x Yield joined dataset (generated)
+│
 ├── notebook/
-│   ├── 01_eda.ipynb                  
-│   └── 02_build_clean_dataset.ipynb             
+│   ├── 01_eda.ipynb                      # Exploratory analysis of raw soil data
+│   └── 02_build_clean_dataset.ipynb      # Full pipeline: cleaning -> join -> export
+│
+├── reports/
+│   └── report_01.md
 │
 └── README.md
 ```
+
+---
+
+## ML Preprocessing Notes
+
+**Log-transform** (right-skewed features): `occ`, `N`, `EC`, `Al`, `Fe`, `Mn`, `Cu`, `CEC`, `P`
+
+**Standard scaling:** all continuous soil and coordinate features after log-transform
+
+**Targets:**
+- Regression: `log_YA` — back-transform predictions with `expm1()`
+- Gap classification: bin `yield_gap_pct` into low / medium / high tertiles
+
+**Categorical encoding:** `COUNTRY`, `crop_clean` — target encoding or one-hot
+
+**Spatial cross-validation:** required — random splits overestimate generalization due to
+spatial autocorrelation in both soil and yield observations
+
+**Data leakage:** `YW`, `YP`, `YG` are yield-gap components — exclude from predictor set,
+use only as targets
+
+---
 
 ## Dependencies
 
 ```
 pandas
 numpy
+scipy
 matplotlib
 seaborn
-scipy
 geopandas
+scikit-learn
 ```
